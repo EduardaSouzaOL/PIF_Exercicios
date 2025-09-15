@@ -22,7 +22,7 @@ int main(){
     //int *P = &N; // ponteiro igual ao endereço de N
     scanf("%d",&N);
     dobrar_e_retornar(&N);
-    printf("%p\n",&N);
+    printf("%p\n",&N);// %p ponteiro
     printf("%d",N);
 
 }
